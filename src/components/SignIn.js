@@ -54,7 +54,6 @@ export default function SignIn({ setName }) {
     setDisabled(disabled);
   }, [string]);
 
-  console.log(string);
   return (
     <Container component="main" maxWidth="xs">
       <CssBaseline />
